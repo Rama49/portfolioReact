@@ -6,7 +6,8 @@ const MailchimpForm = () => {
 
     return(
         <>
-            <MailchimpSubscribe>
+
+            <MailchimpSubscribe
                 url={postUrl}
                 render=
                 {
@@ -19,8 +20,8 @@ const MailchimpForm = () => {
                        />
                     )
                 } 
-            </MailchimpSubscribe>
-        </>
+            />
+       </>
     )
 }
 export default MailchimpForm;

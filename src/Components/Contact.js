@@ -42,7 +42,7 @@ const Contact =() =>{
   }
 
   return(
-    <Container>
+    <section className='contact'id="connect">
         <Row className='align-tems-center'>
             <Col md={6}>
                 <img src={contactimg} alt='Contact Us'/>
@@ -77,7 +77,7 @@ const Contact =() =>{
                 </form>
             </Col>
         </Row>
-    </Container>
+    </section>
   )
 }
 
